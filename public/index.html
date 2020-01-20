@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Web LED Control</title>
+        <meta name="viewport" content="width=400px" />
+
+        <script src="socket.io/socket.io.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <button type="button" value="0" onclick="showValue(this.value)">
+            00
+        </button>
+        <button type="button" value="1" onclick="showValue(this.value)">
+            01
+        </button>
+        <button type="button" value="2" onclick="showValue(this.value)">
+            02
+        </button>
+        <button type="button" value="3" onclick="showValue(this.value)">
+            03
+        </button>
+        <button type="button" value="4" onclick="showValue(this.value)">
+            04
+        </button>
+        <button type="button" value="5" onclick="showValue(this.value)">
+            05
+        </button>
+        <button type="button" value="6" onclick="showValue(this.value)">
+            06
+        </button>
+        <button type="button" value="7" onclick="showValue(this.value)">
+            07
+        </button>
+        <br />
+        <button type="button" value="8" onclick="showValue(this.value)">
+            08
+        </button>
+        <button type="button" value="9" onclick="showValue(this.value)">
+            09
+        </button>
+        <button type="button" value="10" onclick="showValue(this.value)">
+            10
+        </button>
+        <button type="button" value="11" onclick="showValue(this.value)">
+            11
+        </button>
+        <button type="button" value="12" onclick="showValue(this.value)">
+            12
+        </button>
+        <button type="button" value="13" onclick="showValue(this.value)">
+            13
+        </button>
+        <button type="button" value="14" onclick="showValue(this.value)">
+            14
+        </button>
+        <button type="button" value="15" onclick="showValue(this.value)">
+            15
+        </button>
+        <br />
+        <button type="button" value="16" onclick="showValue(this.value)">
+            16
+        </button>
+        <button type="button" value="17" onclick="showValue(this.value)">
+            17
+        </button>
+        <button type="button" value="18" onclick="showValue(this.value)">
+            18
+        </button>
+        <button type="button" value="19" onclick="showValue(this.value)">
+            19
+        </button>
+        <button type="button" value="20" onclick="showValue(this.value)">
+            20
+        </button>
+        <button type="button" value="21" onclick="showValue(this.value)">
+            21
+        </button>
+        <button type="button" value="22" onclick="showValue(this.value)">
+            22
+        </button>
+        <button type="button" value="23" onclick="showValue(this.value)">
+            23
+        </button>
+        <br />
+        <button type="button" value="24" onclick="showValue(this.value)">
+            24
+        </button>
+        <button type="button" value="25" onclick="showValue(this.value)">
+            25
+        </button>
+        <button type="button" value="26" onclick="showValue(this.value)">
+            26
+        </button>
+        <button type="button" value="27" onclick="showValue(this.value)">
+            27
+        </button>
+        <button type="button" value="28" onclick="showValue(this.value)">
+            28
+        </button>
+        <button type="button" value="29" onclick="showValue(this.value)">
+            29
+        </button>
+        <button type="button" value="30" onclick="showValue(this.value)">
+            30
+        </button>
+        <button type="button" value="31" onclick="showValue(this.value)">
+            31
+        </button>
+        <br />
+        <button type="button" value="32" onclick="showValue(this.value)">
+            32
+        </button>
+        <button type="button" value="33" onclick="showValue(this.value)">
+            33
+        </button>
+        <button type="button" value="34" onclick="showValue(this.value)">
+            34
+        </button>
+        <button type="button" value="35" onclick="showValue(this.value)">
+            35
+        </button>
+        <button type="button" value="36" onclick="showValue(this.value)">
+            36
+        </button>
+        <button type="button" value="37" onclick="showValue(this.value)">
+            37
+        </button>
+        <button type="button" value="38" onclick="showValue(this.value)">
+            38
+        </button>
+        <button type="button" value="39" onclick="showValue(this.value)">
+            39
+        </button>
+        <br />
+        <button type="button" value="40" onclick="showValue(this.value)">
+            40
+        </button>
+        <button type="button" value="41" onclick="showValue(this.value)">
+            41
+        </button>
+        <button type="button" value="42" onclick="showValue(this.value)">
+            42
+        </button>
+        <button type="button" value="43" onclick="showValue(this.value)">
+            43
+        </button>
+        <button type="button" value="44" onclick="showValue(this.value)">
+            44
+        </button>
+        <button type="button" value="45" onclick="showValue(this.value)">
+            45
+        </button>
+        <button type="button" value="46" onclick="showValue(this.value)">
+            46
+        </button>
+        <button type="button" value="47" onclick="showValue(this.value)">
+            47
+        </button>
+        <br />
+        <button type="button" value="48" onclick="showValue(this.value)">
+            48
+        </button>
+        <button type="button" value="49" onclick="showValue(this.value)">
+            49
+        </button>
+        <button type="button" value="50" onclick="showValue(this.value)">
+            50
+        </button>
+        <button type="button" value="51" onclick="showValue(this.value)">
+            51
+        </button>
+        <button type="button" value="52" onclick="showValue(this.value)">
+            52
+        </button>
+        <button type="button" value="53" onclick="showValue(this.value)">
+            53
+        </button>
+        <button type="button" value="54" onclick="showValue(this.value)">
+            54
+        </button>
+        <button type="button" value="55" onclick="showValue(this.value)">
+            55
+        </button>
+        <br />
+        <button type="button" value="56" onclick="showValue(this.value)">
+            56
+        </button>
+        <button type="button" value="57" onclick="showValue(this.value)">
+            57
+        </button>
+        <button type="button" value="58" onclick="showValue(this.value)">
+            58
+        </button>
+        <button type="button" value="59" onclick="showValue(this.value)">
+            59
+        </button>
+        <button type="button" value="60" onclick="showValue(this.value)">
+            60
+        </button>
+        <button type="button" value="61" onclick="showValue(this.value)">
+            61
+        </button>
+        <button type="button" value="62" onclick="showValue(this.value)">
+            62
+        </button>
+        <button type="button" value="63" onclick="showValue(this.value)">
+            63
+        </button>
+        <script src="js/script.js"></script>
+    </body>
+</html>

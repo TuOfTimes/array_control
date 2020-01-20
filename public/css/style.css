@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    background: #ffffff;
+    border: 5px double #00acec;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+button {
+    align-content: center;
+}
